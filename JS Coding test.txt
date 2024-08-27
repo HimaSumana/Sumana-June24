@@ -1,0 +1,105 @@
+->Q-2
+<script>
+function checkNum(num){
+if(num>0)
+{
+return "Positive";
+}
+else if(num<0)
+{
+return "Negative";
+}
+else{
+return"Zero";
+}
+}
+console.log(checkNum(5));
+</script>
+
+
+->Q-3
+<script>
+let str="Hello World"
+let portion=str.substring(7,12);
+console.log(portion);
+</script>
+
+
+->Q-4
+<script>
+let str="  Hima    Sumana! ";
+let beforeLen=str.length;
+let trimStr=str.trim();
+let afterLen=trimStr.length;
+console.log(beforeLen);
+console.log(afterLen);
+</script>
+
+
+->Q-5
+let person={
+name="Sumana",
+age=21
+}
+console.log(person.name)
+console.log(person.age)
+
+
+->Q-6
+let day=10;
+switch(day){
+case 1:document.write("It is Monday");
+       break;
+case 2:document.write("It is Tuesday");
+       break;
+case 3:document.write("It is Wednesday");
+       break;
+case 4:document.write("It is Thursday");
+       break;
+case 5:document.write("It is Friday");
+       break;
+case 6:document.write("It is Saturday");
+       break;  
+case 7:document.write("It is Sunday");
+       break;
+default:document.write(${day} is not a day);
+}
+
+
+->Q-7
+<script>
+let nestedArray = [1, [2, 3], [4, [5, 6]]];
+let flattenedArray = nestedArray.flat();
+console.log(flattenedArray);
+</script>
+
+
+->Q-8
+let arr=[16,64,98,673,34];
+console.log(arr.pop(3))
+
+
+->Q-10
+<html>
+<body>
+<div id="container">
+<p>This is a new paragraph</p>
+</div>
+
+
+->Q-11
+<script>
+let element = document.getElementById("myElement");
+element.textContent = "I was selected by ID.";
+</script>
+
+
+->Q-12
+<script>
+let age = 18;
+let ownsCar = true; 
+if (age>16 && ownsCar) {
+console.log("Sathya is old enough to drive and has his own car.");
+}
+</script>
+
