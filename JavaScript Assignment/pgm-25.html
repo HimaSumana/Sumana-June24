@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class Employee{
+            constructor(name,salary)
+            {
+                this.name=name;
+                this.salary=salary;
+                console.log(`Name of the employee: ${name}`);
+                console.log(`Monthly salary: $${salary}`);
+            }
+            calculateAnnualSalary()
+            {
+                return this.salary*12;
+            }
+        }
+        const employee=new Employee("Sumana",3000);
+        console.log(`Annual salary:$${employee.calculateAnnualSalary()}`);
+
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function isValidDate(dateInput) 
+        {
+            const dateObj = new Date(dateInput);
+            return dateObj.getTime() === dateObj.getTime();
+        }
+
+        let dateInput = "2019/05/15";
+        console.log("Is valid date:", isValidDate(dateInput));
+
+        /*
+        let dateInput = "2019/05/15";
+
+        let dateObj = new Date(dateInput);
+
+        console.log(dateObj); 
+        */
+
+    </script>
+</body>
+</html>
